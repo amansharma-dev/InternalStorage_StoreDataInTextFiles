@@ -48,8 +48,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void readBtn(View view) {
-    }
 
     public void deleteBtn(View view) {
         File file = new File(getFilesDir(),FILE_NAME);
